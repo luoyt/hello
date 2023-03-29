@@ -1,7 +1,10 @@
-package hello
+package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/luoyt/hello/stringutil"
+)
 
 func main() {
-	fmt.Println("hello")
+	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
 }
