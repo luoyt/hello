@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+	fmt.Println("luoyt \n\n\n hello")
 }
